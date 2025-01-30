@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lattize Food Ordering</title>
+    <style>
+        /* Header Section */
+        header {
+            padding: 40px;
+            height: 200px;
+            border: 1px solid whitesmoke;
+            font-size: 2em;
+           background-color: #d28b76;
+            background-size: cover;
+        font-size: 60px;
+            background-clip: border-box;
+            background-attachment: fixed;
+            color: white;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+        }
+
+        header h5 {
+            color: rgb(255, 255, 255);
+            font-style: italic;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /* Body Section */
+        body {
+            background-image: linear-gradient(to bottom right, rgb(208, 150, 161), rgba(0, 0, 0, 0.2), rgb(195, 228, 228));
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Menu Section */
+        .menu-section {
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .menu-section h3 {
+            font-size: 32px;
+            color: #b65030;
+            margin-bottom: 30px;
+        }
+
+        .menu-item {
+            display: inline-block;
+            width: 250px;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: rgba(255, 246, 246, 0.8);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+
+        .menu-item img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .menu-item p {
+            font-size: 20px;
+            color: #555;
+        }
+
+        .price {
+            font-size: 22px;
+            color: green;
+            font-weight: bold;
+        }
+
+        /* Dessert Section */
+        .desserts {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .desserts h3 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .desserts img {
+            width: 180px;
+            height: 10px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Marquee Section */
+        h3 a {
+            color: black;
+            font-family: 'Cursive', sans-serif;
+           
+            padding: 10px;
+            text-decoration: none;
+            font-size: 29px;
+            border-radius: 5px;
+        }
+
+        h3 marquee {
+            margin-top: 15px;
+        }
+
+        /* Footer Section */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #e19838;
+            color: white;
+            font-size: 18px;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <b>LATTIZE</b>
+        <h5>"Cravings Delivered, Happiness Guaranteed"</h5>
+    </header>
+
+    <!-- Navigation Marquee Section -->
+    <div>
+        <h3>
+            <marquee><a href="thanks.html">Starters</a></marquee>
+            <marquee direction="right">Desserts</marquee>
+            <marquee style="float: left;">Beverages</marquee>
+        </h3>
+    </div>
+
+    <!-- Menu Section -->
+    <div class="menu-section">
+        <h3>Menu</h3>
+        
+        <div class="menu-item">
+            <h2><img src="good.jpg" alt="Rolls"> Rolls</h2>
+            <p>Rs. 60</p>
+        </div>
+
+        <div class="menu-item">
+            <h2><img src="bev.jpg" alt="Beverages"> Beverages</h2>
+            <p>Rs. 50</p>
+        </div>
+
+        <div class="menu-item">
+            <h2><img src="desse.jpg" alt="Desserts"> Desserts</h2>
+            
+            <p class="price">Rs. 120</p>
+        </div>
+    </div>
+
+   
+    <!-- Description Section -->
+   
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>&copy; 2025 Lattize Food Ordering. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
